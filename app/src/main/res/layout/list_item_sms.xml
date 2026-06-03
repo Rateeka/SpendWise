@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    app:cardCornerRadius="14dp"
+    app:cardElevation="2dp"
+    app:cardBackgroundColor="#FFFFFF"
+    app:strokeColor="#E8EAF6"
+    app:strokeWidth="1dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="14dp">
+
+        <!-- Top row: icon + sender + date/time -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="8dp">
+
+            <!-- Sender avatar icon -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="38dp"
+                android:layout_height="38dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="0dp"
+                android:layout_marginEnd="10dp">
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#E8EAF6">
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_bank"
+                        android:tint="#3949AB" />
+                </FrameLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Sender + time -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvSmsSender"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sender"
+                    android:textSize="13sp"
+                    android:textStyle="bold"
+                    android:textColor="#1A237E" />
+
+                <TextView
+                    android:id="@+id/tvSmsTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10:30 AM"
+                    android:textSize="10sp"
+                    android:textColor="#9FA8DA"
+                    android:layout_marginTop="1dp" />
+
+            </LinearLayout>
+
+            <!-- Date badge -->
+            <TextView
+                android:id="@+id/tvSmsDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="25-05-2025"
+                android:textSize="10sp"
+                android:textColor="#9FA8DA" />
+
+        </LinearLayout>
+
+        <!-- Message body -->
+        <TextView
+            android:id="@+id/tvSmsBody"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Message body here..."
+            android:textSize="12sp"
+            android:textColor="#5C6BC0"
+            android:lineSpacingMultiplier="1.4"
+            android:maxLines="3"
+            android:ellipsize="end"
+            android:layout_marginBottom="10dp" />
+
+        <!-- Bottom tags row -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!-- Credit tag — shown/hidden in adapter -->
+            <TextView
+                android:id="@+id/tvTagCredit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CREDIT"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                android:textColor="#2E7D32"
+                android:background="@drawable/bg_tag_credit"
+                android:paddingHorizontal="8dp"
+                android:paddingVertical="3dp"
+                android:layout_marginEnd="6dp"
+                android:visibility="gone" />
+
+            <!-- Debit tag — shown/hidden in adapter -->
+            <TextView
+                android:id="@+id/tvTagDebit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DEBIT"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                android:textColor="#C62828"
+                android:background="@drawable/bg_tag_debit"
+                android:paddingHorizontal="8dp"
+                android:paddingVertical="3dp"
+                android:layout_marginEnd="6dp"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <!--  Animated geometric background  -->
+    <com.example.spendwise.GeometricBackgroundView
+        android:id="@+id/geometricBg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!--  Ripple rings centered  -->
+    <View
+        android:id="@+id/ripple3"
+        android:layout_width="440dp"
+        android:layout_height="440dp"
+        android:layout_gravity="center"
+        android:background="@drawable/ripple_ring_3"
+        android:alpha="0" />
+
+    <View
+        android:id="@+id/ripple2"
+        android:layout_width="380dp"
+        android:layout_height="380dp"
+        android:layout_gravity="center"
+        android:background="@drawable/ripple_ring_2"
+        android:alpha="0" />
+
+    <View
+        android:id="@+id/ripple1"
+        android:layout_width="320dp"
+        android:layout_height="320dp"
+        android:layout_gravity="center"
+        android:background="@drawable/ripple_ring_1"
+        android:alpha="0" />
+
+    <!--  Logo centered  -->
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_smartspend_logo"
+        android:scaleType="fitCenter"
+        android:contentDescription="App Logo" />
+
+</FrameLayout>

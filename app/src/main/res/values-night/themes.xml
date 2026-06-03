@@ -1,0 +1,5 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Force same theme in night mode as requested -->
+    <style name="Base.Theme.Msgs" parent="Theme.SpendWise" />
+    <style name="Theme.Msgs" parent="Theme.SpendWise" />
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark Mode Colors -->
+    <color name="bg_screen">#121212</color>
+    <color name="surface_primary">#1E1E1E</color>
+    <color name="surface_secondary">#2C2C2C</color>
+
+    <color name="text_primary">#F5F5F5</color>
+    <color name="text_secondary">#B0B0B0</color>
+    <color name="divider_color">#333333</color>
+
+    <color name="brand_indigo_light">#1A1C2E</color>
+    <color name="brand_indigo_dark">#9FA8DA</color>
+</resources>

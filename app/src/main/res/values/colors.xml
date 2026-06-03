@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="brand_green">#00C896</color>
+    <color name="brand_green_dark">#059669</color>
+    <color name="brand_green_light">#6EE7B7</color>
+    <color name="brand_green_container">#D1FAE5</color>
+    <color name="on_green_container">#065F46</color>
+    <color name="surface_green">#ECFDF5</color>
+    <color name="on_surface_green">#064E3B</color>
+    <color name="bg_green_tint">#F0FDF9</color>
+
+    <!-- Legacy / Replaced tokens -->
+    <color name="brand_indigo_dark">#064E3B</color>
+    <color name="brand_indigo">#00C896</color>
+    <color name="brand_indigo_light">#D1FAE5</color>
+    <color name="brand_purple_accent">#00C896</color>
+
+    <color name="bg_screen">#F0FDF9</color>
+    <color name="surface_primary">#FFFFFF</color>
+    <color name="surface_secondary">#ECFDF5</color>
+
+    <color name="text_primary">#064E3B</color>
+    <color name="text_secondary">#059669</color>
+    <color name="divider_color">#E8EAF6</color>
+
+    <color name="income_green">#2E7D32</color>
+    <color name="income_green_dark">#1B5E20</color>
+    <color name="expense_red">#C62828</color>
+    <color name="expense_red_dark">#B71C1C</color>
+    <color name="balance_blue">#1565C0</color>
+    <color name="balance_blue_dark">#0D47A1</color>
+
+    <color name="credit_green">#21d296</color>
+    <color name="debit_red">#ff5151</color>
+    <color name="creditColor">#3949AB</color>
+    <color name="debitColor">#EF5350</color>
+    <color name="teal_500">#009688</color>
+    <color name="teal_300">#7aebeb</color>
+    <color name="teal_200">#bcf5f5</color>
+
+    <!-- Modern Fintech Gradients -->
+    <color name="gradient_start">#00C896</color>
+    <color name="gradient_end">#059669</color>
+
+    <color name="card_income_bg">#E8F5E9</color>
+    <color name="card_expense_bg">#FFEBEE</color>
+    <color name="card_balance_bg">#E3F2FD</color>
+</resources>

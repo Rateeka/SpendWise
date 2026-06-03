@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SpendWise" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Primary green -->
+        <item name="colorPrimary">#00C896</item>
+        <item name="colorPrimaryVariant">#059669</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+
+        <!-- Secondary / surface -->
+        <item name="colorSecondary">#6EE7B7</item>
+        <item name="colorSecondaryContainer">#D1FAE5</item>
+        <item name="colorOnSecondaryContainer">#065F46</item>
+
+        <!-- Backgrounds -->
+        <item name="colorSurface">#ECFDF5</item>
+        <item name="colorOnSurface">#064E3B</item>
+        <item name="android:colorBackground">#F0FDF9</item>
+
+        <!-- Status bar -->
+        <item name="android:statusBarColor">#00C896</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <!-- Edge-to-edge transparent navigation bar -->
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+
+    <style name="Theme.SpendWise" parent="Base.Theme.SpendWise" />
+    <style name="Theme.Msgs" parent="Theme.SpendWise" /> <!-- Alias for backward compatibility if needed -->
+
+</resources>
